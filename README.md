@@ -1,4 +1,4 @@
-# flowStats
+# glorified_cron
 
 Celery app that can be used as glorified cron allowing monitoring using Flower.
 
