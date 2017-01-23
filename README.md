@@ -95,10 +95,6 @@ LOGGER_CONFIG = {
 
 ### Run the celery app on command line:
 
-The celery app will run periodic tasks (every minute) that query mongo
-for all events tracked by flow between 2 minutes ago and 1 minute ago
-(e.g. if it is currently 5:30, it'll query for events between 5:28 and 5:29).
-
 ```
 celery -A glorified_cron.tasks worker -B -E
 ```
